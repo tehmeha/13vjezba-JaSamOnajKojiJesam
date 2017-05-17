@@ -24,5 +24,13 @@ int main()
         getline (cin, prezimeIme[brojKlijenata]);
         saldo [brojKlijenata] = 0;
         brojKlijenata ++;
+
+    }
+    else if (izbor == 2)
+    {
+        for (int i = 0; i < brojKlijenata; i++)
+        {
+            cout << brRacuna [i] << " " << prezimeIme[i] << " saldo: " << saldo [i] << endl;
+        }
     }
 }
